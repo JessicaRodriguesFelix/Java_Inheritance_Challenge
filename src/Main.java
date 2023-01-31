@@ -14,5 +14,11 @@ public class Main {
 
         jessica.retire();
         System.out.println("Jessica's Pension check = $ " + jessica.collectPay());
+
+        HourlyEmployee mary = new HourlyEmployee("Mary", "05/05/1970", "03/03/2021", 15); {
+            System.out.println(mary);
+            System.out.println("Mary's paycheck = $" + mary.collectPay());
+            System.out.println("Mary's Holiday Pay = $" + mary.getDoublePay());
+        }
     }
 }
