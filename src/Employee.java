@@ -4,6 +4,10 @@ public class Employee extends Worker {
 
     private static int employeeNo = 1;
 
+    public Employee() {
+
+    }
+
     public Employee(String name, String birthDate, String hireDate) {
         //super needs to be the first statement in this constructor, otherwise we get a compiler error
         super(name, birthDate);
